@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.changyou.manager.hr.nature_person.dao.HrNaturePersonMapper" >
+  <resultMap id="BaseResultMap" type="com.changyou.manager.hr.nature_person.model.HrNaturePerson" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="NATURE_PERSON_ID" property="naturePersonId" jdbcType="DECIMAL" />
+    <result column="ID_TYPE" property="idType" jdbcType="VARCHAR" />
+    <result column="ID_CARD_NO" property="idCardNo" jdbcType="VARCHAR" />
+    <result column="EMP_NAME" property="empName" jdbcType="OTHER" />
+    <result column="PERSON_NAME_SPELL" property="personNameSpell" jdbcType="VARCHAR" />
+    <result column="GENDER" property="gender" jdbcType="VARCHAR" />
+    <result column="BIRTHDAY" property="birthday" jdbcType="DATE" />
+    <result column="UPDATER_CODE" property="updaterCode" jdbcType="VARCHAR" />
+    <result column="CREATE_DATE" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_DATE" property="updateDate" jdbcType="TIMESTAMP" />
+    <result column="DELETED" property="deleted" jdbcType="DECIMAL" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.changyou.manager.hr.pro_config_depart.dao.HrProConfigDepartMapper" >
+  <resultMap id="BaseResultMap" type="com.changyou.manager.hr.pro_config_depart.model.HrProConfigDepart" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ID" property="id" jdbcType="DECIMAL" />
+    <result column="DEPT_CODE" property="deptCode" jdbcType="VARCHAR" />
+    <result column="DEPT_FINANCE_NO" property="deptFinanceNo" jdbcType="VARCHAR" />
+    <result column="PRO_CODE" property="proCode" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="CREATER_CODE" property="createrCode" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.changyou.manager.hr.kpi.kpi_personal.dao.KpiPersonalMapper" >
+  <resultMap id="BaseResultMap" type="com.changyou.manager.hr.kpi.kpi_personal.model.KpiPersonal" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ID" property="id" jdbcType="DECIMAL" />
+    <result column="CYCLE_ID" property="cycleId" jdbcType="DECIMAL" />
+    <result column="EMP_NAME" property="empName" jdbcType="VARCHAR" />
+    <result column="EMP_NO" property="empNo" jdbcType="VARCHAR" />
+    <result column="WORK_EMAIL" property="workEmail" jdbcType="VARCHAR" />
+    <result column="POST_NAME" property="postName" jdbcType="VARCHAR" />
+    <result column="WORTH" property="worth" jdbcType="VARCHAR" />
+    <result column="ACHIEVEMENT" property="achievement" jdbcType="VARCHAR" />
+    <result column="RESULT" property="result" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+    <result column="CONFIRM_NAME" property="confirmName" jdbcType="VARCHAR" />
+    <result column="CONFIRM_NO" property="confirmNo" jdbcType="VARCHAR" />
+    <result column="CONFIRM_TIME" property="confirmTime" jdbcType="TIMESTAMP" />
+    <result column="INSERT_TIME" property="insertTime" jdbcType="TIMESTAMP" />
+    <result column="INSERTER_CODE" property="inserterCode" jdbcType="VARCHAR" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATER_CODE" property="updaterCode" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

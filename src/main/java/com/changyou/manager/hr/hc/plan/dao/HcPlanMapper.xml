@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.changyou.manager.hr.hc.plan.dao.HcPlanMapper" >
+  <resultMap id="BaseResultMap" type="com.changyou.manager.hr.hc.plan.model.HcPlan" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PLAN_ID" property="planId" jdbcType="DECIMAL" />
+    <result column="YEAE" property="yeae" jdbcType="DECIMAL" />
+    <result column="VERSION" property="version" jdbcType="VARCHAR" />
+    <result column="CREATER_CODE" property="createrCode" jdbcType="VARCHAR" />
+    <result column="CREATER_TIME" property="createrTime" jdbcType="TIMESTAMP" />
+    <result column="STATE" property="state" jdbcType="VARCHAR" />
+    <result column="LAST_UPDATER" property="lastUpdater" jdbcType="TIMESTAMP" />
+    <result column="LAST_UPDATE_TIME" property="lastUpdateTime" jdbcType="TIMESTAMP" />
+    <result column="REMARK" property="remark" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

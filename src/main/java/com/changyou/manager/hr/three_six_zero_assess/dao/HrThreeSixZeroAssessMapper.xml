@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.changyou.manager.hr.three_six_zero_assess.dao.HrThreeSixZeroAssessMapper">
+  <resultMap id="BaseResultMap" type="com.changyou.manager.hr.three_six_zero_assess.model.HrThreeSixZeroAssess">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EMP_CODE" jdbcType="VARCHAR" property="empCode" />
+    <result column="DEPT_CODE" jdbcType="VARCHAR" property="deptCode" />
+    <result column="POST_CODE" jdbcType="VARCHAR" property="postCode" />
+    <result column="ASSESS_DATE" jdbcType="VARCHAR" property="assessDate" />
+    <result column="COLLIGATE" jdbcType="DECIMAL" property="colligate" />
+    <result column="SUPERIOR_ASSESS" jdbcType="DECIMAL" property="superiorAssess" />
+    <result column="COLLEAGUE_ASSESS" jdbcType="DECIMAL" property="colleagueAssess" />
+    <result column="HONEST" jdbcType="DECIMAL" property="honest" />
+    <result column="PASSION" jdbcType="DECIMAL" property="passion" />
+    <result column="STUDIOUS" jdbcType="DECIMAL" property="studious" />
+    <result column="OPEN_UP" jdbcType="DECIMAL" property="openUp" />
+    <result column="COOPERATION" jdbcType="DECIMAL" property="cooperation" />
+    <result column="USER_ORIENTED" jdbcType="DECIMAL" property="userOriented" />
+    <result column="ACHIEVEMENT_TALENT" jdbcType="DECIMAL" property="achievementTalent" />
+    <result column="ACHIEVEMENT" jdbcType="DECIMAL" property="achievement" />
+    <result column="ASSESS_NUMBERS" jdbcType="DECIMAL" property="assessNumbers" />
+    <result column="SUBORDINATE_ASSESS" jdbcType="DECIMAL" property="subordinateAssess" />
+    <result column="DEPT_NAME" jdbcType="VARCHAR" property="deptName" />
+    <result column="POST_NAME" jdbcType="VARCHAR" property="postName" />
+    <result column="SELF_ASSESSMENT" jdbcType="DECIMAL" property="selfAssessment" />
+    <result column="CREATE_TIME" jdbcType="DATE" property="createTime" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.changyou.manager.fn.budget.module.project.dao.KpiFormDataScoreMapper" >
+  <resultMap id="BaseResultMap" type="com.changyou.manager.fn.budget.module.project.model.KpiFormDataScore" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ID" property="id" jdbcType="DECIMAL" />
+    <result column="FORM_DATA_ID" property="formDataId" jdbcType="DECIMAL" />
+    <result column="SELF_SCORE" property="selfScore" jdbcType="VARCHAR" />
+    <result column="SELF_DESCRIBE" property="selfDescribe" jdbcType="VARCHAR" />
+    <result column="SELF_NAME" property="selfName" jdbcType="VARCHAR" />
+    <result column="OFFICER_SCORE" property="officerScore" jdbcType="VARCHAR" />
+    <result column="CEO_SCORE" property="ceoScore" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="HRBP_NAME" property="hrbpName" jdbcType="VARCHAR" />
+    <result column="HRBP_CODE" property="hrbpCode" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

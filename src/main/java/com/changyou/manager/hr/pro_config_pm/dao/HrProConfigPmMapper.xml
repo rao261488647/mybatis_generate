@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.changyou.manager.hr.pro_config_pm.dao.HrProConfigPmMapper" >
+  <resultMap id="BaseResultMap" type="com.changyou.manager.hr.pro_config_pm.model.HrProConfigPm" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ID" property="id" jdbcType="DECIMAL" />
+    <result column="PM_CODE" property="pmCode" jdbcType="VARCHAR" />
+    <result column="PRO_CODE" property="proCode" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="CREATER_CODE" property="createrCode" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

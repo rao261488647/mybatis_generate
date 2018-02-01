@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.changyou.manager.hr.kpi.assess.dao.KpiAssessMapper" >
+  <resultMap id="BaseResultMap" type="com.changyou.manager.hr.kpi.assess.model.KpiAssess" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ID" property="id" jdbcType="DECIMAL" />
+    <result column="CYCLE_ID" property="cycleId" jdbcType="DECIMAL" />
+    <result column="ASSESS_TYPE" property="assessType" jdbcType="VARCHAR" />
+    <result column="ASSESS_DEPT_CODE" property="assessDeptCode" jdbcType="VARCHAR" />
+    <result column="EMP_CODE" property="empCode" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="DECIMAL" />
+    <result column="BELONG_DEPT_CODE" property="belongDeptCode" jdbcType="VARCHAR" />
+    <result column="LAST_WARN_TIME" property="lastWarnTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

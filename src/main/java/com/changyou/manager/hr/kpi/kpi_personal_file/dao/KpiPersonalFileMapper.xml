@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.changyou.manager.hr.kpi.kpi_personal_file.dao.KpiPersonalFileMapper" >
+  <resultMap id="BaseResultMap" type="com.changyou.manager.hr.kpi.kpi_personal_file.model.KpiPersonalFile" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ID" property="id" jdbcType="DECIMAL" />
+    <result column="PERSONAL_ID" property="personalId" jdbcType="DECIMAL" />
+    <result column="FILE_ID" property="fileId" jdbcType="VARCHAR" />
+    <result column="FILE_NAME" property="fileName" jdbcType="VARCHAR" />
+    <result column="INSERT_TIME" property="insertTime" jdbcType="TIMESTAMP" />
+    <result column="INSERTER_CODE" property="inserterCode" jdbcType="VARCHAR" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATER_CODE" property="updaterCode" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

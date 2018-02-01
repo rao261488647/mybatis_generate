@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.changyou.manager.fn.budget.module.project.dao.KpiAssessScoreMapper" >
+  <resultMap id="BaseResultMap" type="com.changyou.manager.fn.budget.module.project.model.KpiAssessScore" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ID" property="id" jdbcType="DECIMAL" />
+    <result column="ASSESS_ID" property="assessId" jdbcType="DECIMAL" />
+    <result column="ASSESS_OA_ID" property="assessOaId" jdbcType="DECIMAL" />
+    <result column="FINAL_SCORE" property="finalScore" jdbcType="VARCHAR" />
+    <result column="ASSESS_LEVEL" property="assessLevel" jdbcType="VARCHAR" />
+    <result column="VALUES_LEVEL" property="valuesLevel" jdbcType="VARCHAR" />
+    <result column="VALUES_DESCRIBE" property="valuesDescribe" jdbcType="VARCHAR" />
+    <result column="OFFICER_DECRIBE" property="officerDecribe" jdbcType="VARCHAR" />
+    <result column="OFFICER_SCORE" property="officerScore" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+    <result column="HRBP_CODE" property="hrbpCode" jdbcType="VARCHAR" />
+    <result column="HRBP_NAME" property="hrbpName" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

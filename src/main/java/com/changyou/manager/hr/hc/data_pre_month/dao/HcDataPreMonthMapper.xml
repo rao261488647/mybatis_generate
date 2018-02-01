@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.changyou.manager.hr.hc.data_pre_month.dao.HcDataPreMonthMapper" >
+  <resultMap id="BaseResultMap" type="com.changyou.manager.hr.hc.data_pre_month.model.HcDataPreMonth" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ID" property="id" jdbcType="DECIMAL" />
+    <result column="MONTH" property="month" jdbcType="VARCHAR" />
+    <result column="PLAN_ID" property="planId" jdbcType="DECIMAL" />
+    <result column="DEPT_CODE" property="deptCode" jdbcType="VARCHAR" />
+    <result column="DEPT_SHORT_NAME" property="deptShortName" jdbcType="VARCHAR" />
+    <result column="DEPT_FULL_NAME" property="deptFullName" jdbcType="VARCHAR" />
+    <result column="DEPT_FULL_CODE" property="deptFullCode" jdbcType="VARCHAR" />
+    <result column="DEPT_PARENT_CODE" property="deptParentCode" jdbcType="VARCHAR" />
+    <result column="DEPT_LEVEL" property="deptLevel" jdbcType="DECIMAL" />
+    <result column="DEPT_LEAD_CODE" property="deptLeadCode" jdbcType="VARCHAR" />
+    <result column="DEPT_LEAD_NAME" property="deptLeadName" jdbcType="VARCHAR" />
+    <result column="DEPT_LEAD_POST_NO" property="deptLeadPostNo" jdbcType="VARCHAR" />
+    <result column="DEPT_LEAD_POST_NAME" property="deptLeadPostName" jdbcType="VARCHAR" />
+    <result column="DEPT_FINANCE_NO" property="deptFinanceNo" jdbcType="VARCHAR" />
+    <result column="HRBP" property="hrbp" jdbcType="VARCHAR" />
+    <result column="PM" property="pm" jdbcType="VARCHAR" />
+    <result column="ACCESS_MANAGER" property="accessManager" jdbcType="VARCHAR" />
+    <result column="CY_HC" property="cyHc" jdbcType="DECIMAL" />
+    <result column="SX_HC" property="sxHc" jdbcType="DECIMAL" />
+    <result column="CP_HC" property="cpHc" jdbcType="DECIMAL" />
+    <result column="CY_SERVING_NO" property="cyServingNo" jdbcType="DECIMAL" />
+    <result column="SX_SERVING_NO" property="sxServingNo" jdbcType="DECIMAL" />
+    <result column="CP_SERVING_NO" property="cpServingNo" jdbcType="DECIMAL" />
+    <result column="CY_RZ_NUM" property="cyRzNum" jdbcType="DECIMAL" />
+    <result column="SX_RZ_NUM" property="sxRzNum" jdbcType="DECIMAL" />
+    <result column="CP_RZ_NUM" property="cpRzNum" jdbcType="DECIMAL" />
+    <result column="CY_ZDLZ_NUM" property="cyZdlzNum" jdbcType="DECIMAL" />
+    <result column="SX_ZDLZ_NUM" property="sxZdlzNum" jdbcType="DECIMAL" />
+    <result column="CP_ZDLZ_NUM" property="cpZdlzNum" jdbcType="DECIMAL" />
+    <result column="CY_BDLZ_NUM" property="cyBdlzNum" jdbcType="DECIMAL" />
+    <result column="SX_BDLZ_NUM" property="sxBdlzNum" jdbcType="DECIMAL" />
+    <result column="CP_BDLZ_NUM" property="cpBdlzNum" jdbcType="DECIMAL" />
+    <result column="CY_ZR_NUM" property="cyZrNum" jdbcType="DECIMAL" />
+    <result column="SX_ZR_NUM" property="sxZrNum" jdbcType="DECIMAL" />
+    <result column="CP_ZR_NUM" property="cpZrNum" jdbcType="DECIMAL" />
+    <result column="CY_ZC_NUM" property="cyZcNum" jdbcType="DECIMAL" />
+    <result column="SX_ZC_NUM" property="sxZcNum" jdbcType="DECIMAL" />
+    <result column="CP_ZC_NUM" property="cpZcNum" jdbcType="DECIMAL" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="CREATER_CODE" property="createrCode" jdbcType="VARCHAR" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATER_CODE" property="updaterCode" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

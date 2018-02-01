@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.changyou.manager.hr.tryout_regular.dao.HrTryoutRegularMapper" >
+  <resultMap id="BaseResultMap" type="com.changyou.manager.hr.tryout_regular.model.HrTryoutRegular" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ID" property="id" jdbcType="DECIMAL" />
+    <result column="EMP_NO" property="empNo" jdbcType="VARCHAR" />
+    <result column="EMP_NAME" property="empName" jdbcType="VARCHAR" />
+    <result column="DEPT_CODE" property="deptCode" jdbcType="VARCHAR" />
+    <result column="DEPT_NAME" property="deptName" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="OTHER" />
+    <result column="CREATER_CODE" property="createrCode" jdbcType="VARCHAR" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="OTHER" />
+    <result column="UPDATER_CODE" property="updaterCode" jdbcType="VARCHAR" />
+    <result column="TRYOUT_REGULAR_FLAG" property="tryoutRegularFlag" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

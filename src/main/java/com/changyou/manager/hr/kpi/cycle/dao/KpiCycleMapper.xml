@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.changyou.manager.hr.kpi.cycle.dao.KpiCycleMapper" >
+  <resultMap id="BaseResultMap" type="com.changyou.manager.hr.kpi.cycle.model.KpiCycle" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ID" property="id" jdbcType="DECIMAL" />
+    <result column="YEAR" property="year" jdbcType="DECIMAL" />
+    <result column="STAGE" property="stage" jdbcType="VARCHAR" />
+    <result column="CREATER_CODE" property="createrCode" jdbcType="VARCHAR" />
+    <result column="CREATER_TIME" property="createrTime" jdbcType="TIMESTAMP" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
